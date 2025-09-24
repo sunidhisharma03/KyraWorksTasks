@@ -22,3 +22,4 @@ reports/*.txt
 .DS_Store
 *.ipynb linguist-language=Python
 .gradio/
+*.html linguist-vendored
