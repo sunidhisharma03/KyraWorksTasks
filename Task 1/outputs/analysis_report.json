@@ -1,0 +1,61 @@
+{
+    "dataset_shape": [
+        524878,
+        11
+    ],
+    "missing_data_summary": {
+        "Missing Values": {
+            "customerid": 135080,
+            "description": 1454,
+            "invoiceno": 0,
+            "stockcode": 0,
+            "quantity": 0,
+            "invoicedate": 0,
+            "unitprice": 0,
+            "country": 0
+        },
+        "Percentage": {
+            "customerid": 24.926694334288598,
+            "description": 0.2683107311375157,
+            "invoiceno": 0.0,
+            "stockcode": 0.0,
+            "quantity": 0.0,
+            "invoicedate": 0.0,
+            "unitprice": 0.0,
+            "country": 0.0
+        }
+    },
+    "duplicates_removed": 6,
+    "correlation_matrix": {
+        "quantity": {
+            "quantity": 1.0,
+            "unitprice": -0.014475125311148295,
+            "line_total": 0.9318674034489688
+        },
+        "unitprice": {
+            "quantity": -0.014475125311148295,
+            "unitprice": 1.0,
+            "line_total": 0.03383448079612095
+        },
+        "line_total": {
+            "quantity": 0.9318674034489688,
+            "unitprice": 0.03383448079612095,
+            "line_total": 1.0
+        }
+    },
+    "t_test": {
+        "t_stat": -3.9664173183442264,
+        "p_value": 7.305728507140234e-05
+    },
+    "plots": {
+        "monthly_revenue": "monthly_revenue.png",
+        "correlation_heatmap": "correlation_heatmap.png",
+        "rfm_clusters": "rfm_clusters.png"
+    },
+    "insights": {
+        "missing_customerid_percent": 24.926694334288598,
+        "return_rate_percent": 0.0,
+        "highest_revenue_month": "2011-11",
+        "top_country_by_txn": "United Kingdom"
+    }
+}

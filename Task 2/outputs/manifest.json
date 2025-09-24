@@ -1,0 +1,21 @@
+{
+  "generated_at": "2025-09-24T13:23:45.771861+00:00",
+  "files": {
+    "heatmap": [
+      "outputs/sales_heatmap_category_region.html",
+      "outputs/sales_heatmap_category_region.json"
+    ],
+    "monthly_trend": [
+      "outputs/monthly_sales_trend.html",
+      "outputs/monthly_sales_trend.json"
+    ],
+    "top_subcategories": [
+      "outputs/top_subcategories.html",
+      "outputs/top_subcategories.json"
+    ],
+    "monthly_by_region": [
+      "outputs/monthly_sales_by_region.html",
+      "outputs/monthly_sales_by_region.json"
+    ]
+  }
+}
