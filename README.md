@@ -54,5 +54,4 @@ Build predictive models to forecast trends and automate reporting.
 
 ---
 
-## Project Structure
 
