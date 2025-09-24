@@ -17,9 +17,14 @@ reports/*.png
 reports/*.html
 reports/*.csv
 reports/*.txt
-
 # System files
 .DS_Store
 *.ipynb linguist-language=Python
 .gradio/
 *.html linguist-vendored
+# Force Jupyter notebooks to be counted as Python
+*.ipynb linguist-language=Python
+# Don’t count HTML reports or auto-generated files
+*.html linguist-vendored
+*.json linguist-vendored
+*.csv linguist-vendored
