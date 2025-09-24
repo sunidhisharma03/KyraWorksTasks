@@ -20,5 +20,5 @@ reports/*.txt
 
 # System files
 .DS_Store
-
+*.ipynb linguist-language=Python
 .gradio/
