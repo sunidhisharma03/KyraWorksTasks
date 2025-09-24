@@ -1,6 +1,6 @@
 # KyraWorks Tasks
 
-This repository contains a set of data-driven projects demonstrating advanced data cleaning, statistical analysis, automated data visualization, and predictive analytics. These tasks were implemented using Python and relevant data science libraries, with a focus on automation and backend integration.
+This repository contains a set of data-driven projects demonstrating advanced data cleaning, statistical analysis, automated data visualization, and predictive analytics. These tasks were implemented using Python and relevant data science libraries, with a focus on automation and backend integrations.
 
 ---
 
